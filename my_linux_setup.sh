@@ -44,3 +44,6 @@ curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools
 
 # Tilix Terminal
 sudo apt install tilix
+
+# Google Chromium Browser
+sudo apt install chromium-browser
