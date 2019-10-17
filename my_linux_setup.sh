@@ -25,8 +25,8 @@ sudo apt install -y libkrb5-dev
 
 # Nodejs, Npm and Yarn
 curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
-sudo apt install nodejs
-sudo apt install yarn
+sudo apt install -y nodejs
+sudo apt install -y yarn
 
 # Installing JDK and JRE
 sudo apt install -y default-jre
