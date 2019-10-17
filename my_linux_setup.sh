@@ -39,11 +39,11 @@ sudo apt install -y gimp gimp-data gimp-plugin-registry gimp-data-extras
 sudo apt install -y unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
 
 # Zsh
-sudo apt install zsh
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
+#sudo apt install -y zsh
+#curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
 
 # Tilix Terminal
-sudo apt install tilix
+sudo apt install -y tilix
 
 # Google Chromium Browser
-sudo apt install chromium-browser
+sudo apt install -y chromium-browser
