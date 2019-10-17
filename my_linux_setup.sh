@@ -47,3 +47,6 @@ sudo apt install -y tilix
 
 # Google Chromium Browser
 sudo apt install -y chromium-browser
+
+# Docky 
+sudo apt install -y docky
