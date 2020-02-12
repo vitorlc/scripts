@@ -7,6 +7,7 @@ sudo apt update
 # Install basic linux tools and utilities
 sudo apt install -y libssl-dev
 sudo apt install build-essential \ libffi-dev python-dev
+sudo apt install -y gcc g++ make
 
 # Git - a version control system
 sudo apt update
