@@ -16,3 +16,6 @@ sudo apt install -y gimp gimp-data gimp-plugin-registry gimp-data-extras
 
 # Vlc - Media Player
 sudo snap install vlc
+
+# LibreOffice
+sudo apt install -y libreoffice
