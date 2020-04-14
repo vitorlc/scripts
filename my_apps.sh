@@ -19,3 +19,9 @@ sudo snap install vlc
 
 # LibreOffice
 sudo apt install -y libreoffice
+
+# EasySSH
+sudo flatpak install flathub com.github.muriloventuroso.easyssh -y
+
+# Planner
+sudo flatpak install flathub com.github.alainm23.planner -y
