@@ -25,3 +25,8 @@ sudo flatpak install flathub com.github.muriloventuroso.easyssh -y
 
 # Planner
 sudo flatpak install flathub com.github.alainm23.planner -y
+
+# Stacer 
+sudo add-apt-repository ppa:oguzhaninan/stacer -y
+sudo apt-get update
+sudo apt-get install stacer -y
