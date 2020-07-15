@@ -46,8 +46,7 @@ sudo apt install -y tilix
 # Google Chromium Browser
 sudo apt install -y chromium-browser
 
-# Docky 
-sudo apt install -y docky
+# System Update
+sudo apt update && sudo apt dist-upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
 
-## Install Apps
-./my_apps.sh
+echo "End Script"
