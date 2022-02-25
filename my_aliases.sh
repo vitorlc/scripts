@@ -20,6 +20,8 @@ alias ports="sudo lsof -i -P -n | grep LISTEN"
 alias zshconfig="code ~/.zshrc"
 alias open="xdg-open ."
 
+alias cleanbranches ="git branch | egrep -v '(^\*|main|homolog|develop|master|dev|stage)' | xargs git branch -D"
+
 function gaa() {
   git add .
   git commit -m "$1"
