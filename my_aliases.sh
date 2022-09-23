@@ -20,6 +20,10 @@ alias ports="sudo lsof -i -P -n | grep LISTEN"
 alias zshconfig="code ~/.zshrc"
 alias open="xdg-open ."
 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
 alias cleanbranches ="git branch | egrep -v '(^\*|main|homolog|develop|master|dev|stage)' | xargs git branch -D"
 
 function gaa() {
